@@ -3,7 +3,7 @@ let puzzle;
 let solution;
 async function getPuzzle(difficulty) {
     try {
-        // Sorry Nikhil Bhai for using your API 😭
+        // Sorry Nikhil Bhai for using API 😭
         const response = await fetch(
             `https://api.api-ninjas.com/v1/sudokugenerate?difficulty=${difficulty}&width=3&height=3`,
             { 
