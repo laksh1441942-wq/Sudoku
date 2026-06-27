@@ -3,9 +3,10 @@ let puzzle;
 let solution;
 async function getPuzzle(difficulty) {
     try {
+        // Sorry Nikhil Bhai for using your API 😭
         const response = await fetch(
             `https://api.api-ninjas.com/v1/sudokugenerate?difficulty=${difficulty}&width=3&height=3`,
-            {
+            { 
                 headers: {
                     "X-Api-Key": "lpC5wzTYRzjDq6k6Wylq8KA65GPxO61bO4o5sP27"
                 }
